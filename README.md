@@ -9,8 +9,7 @@ http://www.cc.ntut.edu.tw/~wkchen/game/index.htm
 
 # Game System
 - 2D Action Game
-- Data Configuration
-  - Change game object behavior without compile programe.
+- Data Configuration: Change game object behavior without compile programe.
   - Map:
     - Set maps link: [BigMap.txt](Data/Maps/BigMap.txt)
     - Set map bmps: [Aisle_A.bpc](Data/Maps/Aisle_A.bpc)
