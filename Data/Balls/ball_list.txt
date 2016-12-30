@@ -1,0 +1,15 @@
+<ball> 0 bigbar
+	.\\Data\\Balls\\bigbar.txt
+<ball_end>
+
+<ball> 1 fireball
+	.\\Data\\Balls\\fireball.txt
+<ball_end>
+
+<ball> 2 axe
+	.\\Data\\Balls\\axe.txt
+<ball_end>
+
+<ball> 3 hatchet
+	.\\Data\\Balls\\hatchet.txt
+<ball_end>

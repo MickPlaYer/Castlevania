@@ -1,0 +1,33 @@
+MonsterAmount: 8
+
+<monster> humanity
+	id: 5  frame: 0  x: 511  y: 95
+<monster_end>
+
+<monster> humanity
+	id: 5  frame: 0  x: 431  y: 415
+<monster_end>
+
+<monster> humanity
+	id: 5  frame: 0  x: 591  y: 415
+<monster_end>
+
+<monster> zombie
+	id: 1  frame: 0  x: 415  y: 799
+<monster_end>
+
+<monster> zombie
+	id: 1  frame: 0  x: 479  y: 799
+<monster_end>
+
+<monster> zombie
+	id: 1  frame: 0  x: 543  y: 799
+<monster_end>
+
+<monster> zombie
+	id: 1  frame: 0  x: 607  y: 799
+<monster_end>
+
+<monster> zombie
+	id: 1  frame: 0  x: 671  y: 799
+<monster_end>

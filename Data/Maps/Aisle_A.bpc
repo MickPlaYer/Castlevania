@@ -1,0 +1,52 @@
+<Map>
+	RGB: 255 0 255
+	BitMaps:
+		.\\Bitmaps\\map_aisle\\roof_0.bmp
+		.\\Bitmaps\\map_aisle\\roof_1.bmp
+		.\\Bitmaps\\map_aisle\\roof_2.bmp
+		.\\Bitmaps\\map_aisle\\roof_3.bmp
+		.\\Bitmaps\\map_aisle\\roof_side_left.bmp
+		.\\Bitmaps\\map_aisle\\roof_side_right.bmp
+		.\\Bitmaps\\map_aisle\\floor_0.bmp
+		.\\Bitmaps\\map_aisle\\floor_1.bmp
+		.\\Bitmaps\\map_aisle\\floor_2.bmp
+		.\\Bitmaps\\map_aisle\\floor_3.bmp
+		.\\Bitmaps\\map_aisle\\floor_light_0.bmp
+		.\\Bitmaps\\map_aisle\\floor_light_1.bmp
+		.\\Bitmaps\\map_aisle\\floor_light_2.bmp
+		.\\Bitmaps\\map_aisle\\floor_light_side_left.bmp
+		.\\Bitmaps\\map_aisle\\floor_light_side_right.bmp
+		.\\Bitmaps\\map_aisle\\ladder_left.bmp
+		.\\Bitmaps\\map_aisle\\ladder_right.bmp
+		.\\Bitmaps\\map_aisle\\pillar_roof.bmp
+		.\\Bitmaps\\map_aisle\\pillar_mid.bmp
+		.\\Bitmaps\\map_aisle\\sidewall_top_left.bmp
+		.\\Bitmaps\\map_aisle\\sidewall_top_right.bmp
+		.\\Bitmaps\\map_aisle\\sidewall_mid_left.bmp
+		.\\Bitmaps\\map_aisle\\sidewall_mid_right.bmp
+		.\\Bitmaps\\map_aisle\\sidewall_botton_left.bmp
+		.\\Bitmaps\\map_aisle\\sidewall_botton_right.bmp
+		.\\Bitmaps\\map_aisle\\wall_left.bmp
+		.\\Bitmaps\\map_aisle\\wall_mid_left.bmp
+		.\\Bitmaps\\map_aisle\\wall_mid.bmp
+		.\\Bitmaps\\map_aisle\\wall_mid_right.bmp
+		.\\Bitmaps\\map_aisle\\wall_right.bmp
+		.\\Bitmaps\\map_aisle\\wall_top.bmp
+#map_end
+
+<Background>
+	BitMaps:
+#BackgroundEnd
+
+<BackgroundMiddle>
+	DelayCount: 15
+	BitMaps:
+		.\\Bitmaps\\map_aisle\\background_wall_2.bmp
+#BackgroundMiddleEnd
+
+<BackgroundFar>
+	DelayCount: 1
+	BitMaps:
+		.\\Bitmaps\\map_aisle\\background_moon_0.bmp
+		.\\Bitmaps\\map_aisle\\background_moon_1.bmp
+#BackgroundFarEnd

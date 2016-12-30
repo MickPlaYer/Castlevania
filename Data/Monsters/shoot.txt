@@ -1,0 +1,59 @@
+<bmp_begin>
+RGB: 255 255 255
+Bitmaps\\monster\\none_white.bmp
+Bitmaps\\monster\\shoot\\1.bmp
+Bitmaps\\monster\\shoot\\2.bmp
+<bmp_end>
+
+<attribute>
+hp: 999  attack: 3  defence: 0  death: 3
+<attribute_end>
+
+<frame> 0 stand_by
+	kind: 0  pic: 0  wait: 0  next: 0 dvx: 0 dvy: 0
+	trig:
+		x: -30  y: -100  width: 90  height: 3000  goto: 1
+	trig_end:
+	timer:
+		reset: 1  time: 0  goto: 0
+	timer_end:
+<frame_end>
+
+<frame> 1 Walk
+	kind: 1  pic: 1  wait: 15  next: 2  dvx: 0  dvy: 4
+	trig:
+		x: 8  y: 10  width: 17  height: 16  goto: 3
+	trig_end:
+	timer:
+		reset: 0  time: 30  goto: 3
+	timer_end:
+<frame_end>
+
+<frame> 2 Walk
+	kind: 1  pic: 1  wait: 15  next: 1  dvx: 0  dvy: -4
+	trig:
+		x: 8  y: 10  width: 30  height: 16  goto: 3
+	trig_end:
+	timer:
+		reset: 0  time: 30  goto: 3
+	timer_end:
+<frame_end>
+
+<frame> 3 Walk
+	kind: 1  pic: 2  wait: 15  next: 4  dvx: 0  dvy: 0
+	atk:
+		x: 1  y: 1  width: 34  height: 34
+	atk_end:
+<frame_end>
+
+<frame> 4 Walk
+	kind: 0  pic: 0  wait: 0  next: 5  dvx: 0  dvy: 0
+	bpoint:
+		x: 20  y: 20  id: 1
+	bpoint_end:
+<frame_end>
+
+<frame> 5 Walk
+	kind: -1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+<frame_end>
+

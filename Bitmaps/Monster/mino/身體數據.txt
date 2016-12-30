@@ -1,0 +1,29 @@
+move1~5:
+	x:66	Y:25	width:42	height:119
+stand:
+	x:97	Y:29	width:50	height:109
+attack_1:
+	x:244	y:17	width:97	height:145
+attack_2:
+	x:244	y:17	width:132	height:145
+attack_3:
+	x:244	y:17	width:165	height:145
+attack_4:
+	x:244	y:17	width:194	height:145(151)
+attack_5:
+	x:244	y:17	width:224	height:145(151)
+attack_6:
+	x:244	y:17	width:240(291)	height:145(151)
+attack_7:
+	x:244	y:17	width:261(333)	height:145
+attack1:
+	x:89	y:44	width:48	height:118
+attack2:
+	x:94	y:41	width:48	height:121
+attack3:
+	x:99	y:54	width:47	height:108
+attack4:
+	x:95(95)y:54(124)width:57(125)	height:108(38)
+
+
+

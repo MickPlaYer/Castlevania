@@ -1,0 +1,70 @@
+<attribute>
+	ShiftX: 26  ShiftY: 4  AttackPoint: 100  DeathFrame: 20  BitmapNumber: 0
+<attribute_end>
+
+<frame> 0 shoot
+	kind: 1  pic: 0  wait: 0  next: 1  dvx: 1  dvy: 0
+	atk:
+		x: 1  y: 1  w: 1  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 1 shoot
+	kind: 1  pic: 1  wait: 0  next: 2  dvx: 2  dvy: 0
+	atk:
+		x: 1  y: 1  w: 3  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 2 shoot
+	kind: 1  pic: 2  wait: 0  next: 3  dvx: 4  dvy: 0
+	atk:
+		x: 1  y: 1  w: 7  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 3 shoot
+	kind: 1  pic: 3  wait: 0  next: 4  dvx: 8  dvy: 0
+	atk:
+		x: 1  y: 1  w: 15  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 4 shoot
+	kind: 1  pic: 4  wait: 0  next: 5  dvx: 16  dvy: 0
+	atk:
+		x: 1  y: 1  w: 31  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 5 shoot
+	kind: 1  pic: 5  wait: 0  next: 6  dvx: 32  dvy: 0
+	atk:
+		x: 1  y: 1  w: 63  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 6 shoot
+	kind: 1  pic: 6  wait: 0  next: 7  dvx: 64  dvy: 0
+	atk:
+		x: 1  y: 1  w: 127  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 7 shoot
+	kind: 1  pic: 7  wait: 0  next: 8  dvx: 128  dvy: 0
+	atk:
+		x: 1  y: 1  w: 255  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 8 shoot
+	kind: 1  pic: 8  wait: 0  next: 20  dvx: 256  dvy: 0
+	atk:
+		x: 1  y: 1  w: 511  h: 1
+	atk_end:
+<frame_end>
+
+<frame> 20 death
+	kind: -1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+<frame_end>

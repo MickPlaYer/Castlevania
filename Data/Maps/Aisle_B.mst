@@ -1,0 +1,25 @@
+MonsterAmount: 6
+
+<monster> baozou_zom
+	id: 2  frame: 0  x: 1023  y: 287
+<monster_end>
+
+<monster> baozou_zom
+	id: 2  frame: 0  x: 767  y: 287
+<monster_end>
+
+<monster> baozou_zom
+	id: 2  frame: 0  x: 511  y: 287
+<monster_end>
+
+<monster> zombie
+	id: 1  frame: 0  x: 255  y: 287
+<monster_end>
+
+<monster> shoot
+	id: 4  rame: 0  x: 200  y: 287
+<monster_end>
+
+<monster> shoot
+	id: 4  frame: 0  x: 1335  y: 287
+<monster_end>

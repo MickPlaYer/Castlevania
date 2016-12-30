@@ -1,0 +1,463 @@
+<bmp_begin>
+RGB: 0 0 0
+Bitmaps\\monster\\none_black.bmp
+Bitmaps\\monster\\knight\\01.bmp
+Bitmaps\\monster\\knight\\02.bmp
+Bitmaps\\monster\\knight\\03.bmp
+Bitmaps\\monster\\knight\\04.bmp
+Bitmaps\\monster\\knight\\05.bmp
+Bitmaps\\monster\\knight\\06.bmp
+Bitmaps\\monster\\knight\\07.bmp
+Bitmaps\\monster\\knight\\08.bmp
+Bitmaps\\monster\\knight\\09.bmp
+Bitmaps\\monster\\knight\\10.bmp
+Bitmaps\\monster\\knight\\11.bmp
+Bitmaps\\monster\\knight\\12.bmp
+Bitmaps\\monster\\knight\\13.bmp
+Bitmaps\\monster\\knight\\14.bmp
+Bitmaps\\monster\\knight\\15.bmp
+Bitmaps\\monster\\knight\\16.bmp
+Bitmaps\\monster\\knight\\17.bmp
+Bitmaps\\monster\\knight\\18.bmp
+Bitmaps\\monster\\knight\\19.bmp
+Bitmaps\\monster\\knight\\20.bmp
+Bitmaps\\monster\\knight\\21.bmp
+Bitmaps\\monster\\knight\\22.bmp
+Bitmaps\\monster\\knight\\23.bmp
+Bitmaps\\monster\\knight\\24.bmp
+Bitmaps\\monster\\knight\\25.bmp
+Bitmaps\\monster\\knight\\26.bmp
+Bitmaps\\monster\\knight\\27.bmp
+Bitmaps\\monster\\knight\\28.bmp
+Bitmaps\\monster\\knight\\29.bmp
+Bitmaps\\monster\\knight\\30.bmp
+Bitmaps\\monster\\knight\\31.bmp
+Bitmaps\\monster\\knight\\32.bmp
+Bitmaps\\monster\\knight\\33.bmp
+Bitmaps\\monster\\knight\\34.bmp
+Bitmaps\\monster\\knight\\35.bmp
+Bitmaps\\monster\\knight\\36.bmp
+Bitmaps\\monster\\knight\\37.bmp
+Bitmaps\\monster\\knight\\38.bmp
+Bitmaps\\monster\\knight\\39.bmp
+<bmp_end>
+
+<attribute>
+hp: 100  attack: 10  defence: 8  death: 40
+<attribute_end>
+
+<frame> 0 stand_by
+	kind: 0  pic: 1  wait: 5  next: 1  dvx: 0  dvy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	trig:
+		x: 65  y: 23  width: 100  height: 98  goto: 8
+	trig_end:
+	timer:
+		reset: 0  timer: 30  goto: 8
+	timer_end:
+<frame_end>
+
+<frame> 1 stand_by
+	kind: 0  pic: 2  wait: 5  next: 2  dvx: 0  dvy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	timer:
+		reset: 0  timer: 30  goto: 8
+	timer_end:
+<frame_end>
+
+<frame> 2 stand_by
+	kind: 0  pic: 3  wait: 5  next: 3  dvx: 0  dvy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	timer:
+		reset: 0  timer: 30  goto: 8
+	timer_end:
+<frame_end>
+
+<frame> 3 stand_by
+	kind: 0  pic: 4  wait: 5  next: 4  dvx: 0  dvy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	timer:
+		reset: 0  timer: 30  goto: 8
+	timer_end:
+<frame_end>
+
+<frame> 4 stand_by
+	kind: 0  pic: 5  wait: 5  next: 5  dvx: 0  dvy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	timer:
+		reset: 0  timer: 30  goto: 8
+	timer_end:
+<frame_end>
+
+<frame> 5 stand_by
+	kind: 0  pic: 6  wait: 5  next: 6  dvx: 0  vy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	timer:
+		reset: 0  timer: 30  goto: 8
+	timer_end:
+<frame_end>
+
+<frame> 6 stand_by
+	kind: 0  pic: 7  wait: 5  next: 7  dvx: 0  dvy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	timer:
+		reset: 0  timer: 30  goto: 8
+	timer_end:
+<frame_end>
+
+<frame> 7 stand_by
+	kind: 0  pic: 8  wait: 5  next: 0  dvx: 0  dvy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	timer:
+		reset: 0  timer: 30  goto: 8
+	timer_end:
+<frame_end>
+
+<frame> 8 befor_run
+	kind: 1  pic: 9  wait: 5  next: 9  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 9 befor_run
+	kind: 1  pic: 10  wait: 5  next: 10  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 10 befor_run
+	kind: 1  pic: 11  wait: 5  next: 11  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 11 befor_run
+	kind: 1  pic: 12  wait: 5  next: 12  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 12 befor_run
+	kind: 1  pic: 13  wait: 5  next: 13  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 13 run
+	kind: 1  pic: 14  wait: 2  next: 14  dvx: 8  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 14 run
+	kind: 1  pic: 15  wait: 2  next: 15  dvx: 8  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 15 run
+	kind: 1  pic: 16  wait: 2  next: 16  dvx: 8  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 16 run
+	kind: 1  pic: 17  wait: 2  next: 17  dvx: 8  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 17 run
+	kind: 1  pic: 18  wait: 2  next: 18  dvx: 8  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 18 run
+	kind: 1  pic: 19  wait: 2  next: 19  dvx: 8  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 19 run
+	kind: 1  pic: 20  wait: 2  next: 20  dvx: 8  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 20 run
+	kind: 1  pic: 21  wait: 2  next: 21  dvx: 8  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 21 run
+	kind: 1  pic: 22  wait: 2  next: 22  dvx: 4  dvy: 0
+	bdy:
+		x: 105  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 22 run
+	kind: 1  pic: 23  wait: 2  next: 23  dvx: 4  dvy: 0
+	bdy:
+		x: 95  y: 47  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 23 run_atttack
+	kind: 1  pic: 24  wait: 2  next: 24  dvx: 4  dvy: 0
+	bdy:
+		x: 103  y: 45  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 43  y: 93  width: 32  height: 30
+	atk_end:
+<frame_end>
+
+<frame> 24 atttack
+	kind: 1  pic: 25  wait: 2  next: 25  dvx: 0  dvy: 0
+	bdy:
+		x: 91  y: 45  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 17  y: 75  width: 42  height: 24
+	atk_end:
+<frame_end>
+
+<frame> 25 atttack
+	kind: 1  pic: 26  wait: 2  next: 26  dvx: 0  dvy: 0
+	bdy:
+		x: 91  y: 49  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 11  y: 64  width: 56  height: 21
+	atk_end:
+<frame_end>
+
+<frame> 26 atttack
+	kind: 1  pic: 27  wait: 2  next: 27  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 41  y: 17  width: 46  height: 30
+	atk_end:
+	atk:
+		x: 25  y: 31  width: 30  height: 30
+	atk_end:
+<frame_end>
+
+<frame> 27 atttack
+	kind: 1  pic: 28  wait: 2  next: 28  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 169  y: 61  width: 60  height: 60
+	atk_end:
+	atk:
+		x: 37  y: 1  width: 160  height: 40
+	atk_end:
+<frame_end>
+
+<frame> 28 atttack
+	kind: 1  pic: 29  wait: 2  next: 29  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 169  y: 61  width: 60  height: 60
+	atk_end:
+	atk:
+		x: 37  y: 1  width: 160  height: 40
+	atk_end:
+<frame_end>
+
+<frame> 29 atttack
+	kind: 1  pic: 30  wait: 2  next: 30  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 169  y: 95  width: 60  height: 26
+	atk_end:
+<frame_end>
+
+<frame> 30 atttack
+	kind: 1  pic: 31  wait: 2  next: 31  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 155  y: 93  width: 60  height: 26
+	atk_end:
+<frame_end>
+
+<frame> 31 atttack
+	kind: 1  pic: 32  wait: 2  next: 32  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 155  y: 93  width: 60  height: 26
+	atk_end:
+<frame_end>
+
+<frame> 32 atttack
+	kind: 1  pic: 33  wait: 2  next: 33  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 157  y: 87  width: 46  height: 32
+	atk_end:
+<frame_end>
+
+<frame> 33 atttack
+	kind: 1  pic: 34  wait: 2  next: 34  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 149  y: 83  width: 44  height: 38
+	atk_end:
+<frame_end>
+
+<frame> 34 atttack
+	kind: 1  pic: 35  wait: 2  next: 35  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 139  y: 53  width: 58  height: 70
+	atk_end:
+<frame_end>
+
+<frame> 35 atttack
+	kind: 1  pic: 36  wait: 2  next: 36  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 141  y: 15  width: 52  height: 64
+	atk_end:
+<frame_end>
+
+<frame> 36 atttack
+	kind: 1  pic: 37  wait: 2  next: 37  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+	atk:
+		x: 51  y: 15  width: 52  height: 64
+	atk_end:
+<frame_end>
+
+<frame> 37 atttack
+	kind: 1  pic: 38  wait: 2  next: 38  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 38 atttack
+	kind: 1  pic: 39  wait: 2  next: 39  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 55  width: 36  height: 66
+	bdt_end:
+<frame_end>
+
+<frame> 39 stand_by
+	kind: 0  pic: 1  wait: 5  next: 2  dvx: 0  dvy: 0
+	bdt:
+		x: 97  y: 55  width: 36  height: 66  goto: 8
+	bdt_end:
+	atk:
+		x: 97  y: 55  width: 36  height: 66
+	atk_end:
+	trig:
+		x: 65  y: 23  width: 100  height: 98  goto: 8
+	trig_end:
+	timer:
+		reset: 1  timer: 0  goto: 0
+	timer_end:
+<frame_end>
+
+<frame> 40 death
+	kind: 1  pic: 1  wait: 1  next: 41  dvx: 0  dvy: 0
+	timer:
+		reset: 1  timer: 0  goto: 0
+	timer_end:
+<frame_end>
+
+<frame> 41 death
+	kind: 1  pic: 0  wait: 0  next: 42  dvx: 0  dvy: 0
+	timer:
+		reset: 0  timer: 15  goto: 43
+	timer_end:
+<frame_end>
+
+<frame> 42 death
+	kind: 1  pic: 1  wait: 0  next: 41  dvx: 0  dvy: 0
+	timer:
+		reset: 0  timer: 15  goto: 43
+	timer_end:
+<frame_end>
+
+<frame> 43 death
+	kind: -1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+<frame_end>

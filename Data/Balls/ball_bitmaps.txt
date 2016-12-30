@@ -1,0 +1,69 @@
+<bmp_begin> 0 bigbar
+RGB: 0 255 0
+.\\Bitmaps\\monster\\none_green.bmp
+.\\Bitmaps\\ball\\bigbar\\1.bmp
+.\\Bitmaps\\ball\\bigbar\\2.bmp
+.\\Bitmaps\\ball\\bigbar\\3.bmp
+.\\Bitmaps\\ball\\bigbar\\4.bmp
+.\\Bitmaps\\ball\\bigbar\\5.bmp
+.\\Bitmaps\\ball\\bigbar\\6.bmp
+.\\Bitmaps\\ball\\bigbar\\7.bmp
+.\\Bitmaps\\ball\\bigbar\\8.bmp
+<bmp_end>
+
+<bmp_begin> 1 fireball
+RGB: 255 255 255
+.\\Bitmaps\\monster\\none_white.bmp
+.\\Bitmaps\\ball\\fireball\\01.bmp
+.\\Bitmaps\\ball\\fireball\\02.bmp
+.\\Bitmaps\\ball\\fireball\\03.bmp
+.\\Bitmaps\\ball\\fireball\\04.bmp
+.\\Bitmaps\\ball\\fireball\\05.bmp
+.\\Bitmaps\\ball\\fireball\\06.bmp
+.\\Bitmaps\\ball\\fireball\\07.bmp
+.\\Bitmaps\\ball\\fireball\\08.bmp
+.\\Bitmaps\\ball\\fireball\\09.bmp
+.\\Bitmaps\\ball\\fireball\\10.bmp
+.\\Bitmaps\\ball\\fireball\\11.bmp
+.\\Bitmaps\\ball\\fireball\\12.bmp
+.\\Bitmaps\\ball\\fireball\\13.bmp
+.\\Bitmaps\\ball\\fireball\\14.bmp
+.\\Bitmaps\\ball\\fireball\\15.bmp
+.\\Bitmaps\\ball\\fireball\\16.bmp
+.\\Bitmaps\\ball\\fireball\\17.bmp
+<bmp_end>
+
+
+<bmp_begin> 2 axe
+RGB: 0 255 0
+.\\Bitmaps\\monster\\none_green.bmp
+.\\Bitmaps\\ball\\axe\\01.bmp
+.\\Bitmaps\\ball\\axe\\02.bmp
+.\\Bitmaps\\ball\\axe\\03.bmp
+.\\Bitmaps\\ball\\axe\\04.bmp
+.\\Bitmaps\\ball\\axe\\05.bmp
+.\\Bitmaps\\ball\\axe\\06.bmp
+.\\Bitmaps\\ball\\axe\\07.bmp
+.\\Bitmaps\\ball\\axe\\08.bmp
+.\\Bitmaps\\ball\\axe\\09.bmp
+.\\Bitmaps\\ball\\axe\\10.bmp
+.\\Bitmaps\\ball\\axe\\11.bmp
+.\\Bitmaps\\ball\\axe\\12.bmp
+.\\Bitmaps\\ball\\axe\\13.bmp
+.\\Bitmaps\\ball\\axe\\14.bmp
+.\\Bitmaps\\ball\\axe\\15.bmp
+.\\Bitmaps\\ball\\axe\\16.bmp
+<bmp_end>
+
+<bmp_begin> 3 hatchet
+RGB: 0 255 0
+.\\Bitmaps\\monster\\none_green.bmp
+.\\Bitmaps\\ball\\hatchet\\1.bmp
+.\\Bitmaps\\ball\\hatchet\\2.bmp
+.\\Bitmaps\\ball\\hatchet\\3.bmp
+.\\Bitmaps\\ball\\hatchet\\4.bmp
+.\\Bitmaps\\ball\\hatchet\\5.bmp
+.\\Bitmaps\\ball\\hatchet\\6.bmp
+.\\Bitmaps\\ball\\hatchet\\7.bmp
+.\\Bitmaps\\ball\\hatchet\\8.bmp
+<bmp_end>

@@ -1,0 +1,23 @@
+<Map>
+	RGB: 0 40 0
+	BitMaps:
+		.\\Bitmaps\\map_bonfire\\floor.bmp
+#map_end
+
+<Background>
+	BitMaps:
+		.\\Bitmaps\\map_bonfire\\floor.bmp
+#BackgroundEnd
+
+<BackgroundMiddle>
+	DelayCount: 2
+	BitMaps:
+		.\\Bitmaps\\map_bonfire\\roof_0.bmp
+		.\\Bitmaps\\map_bonfire\\roof_1.bmp
+#BackgroundMiddleEnd
+
+<BackgroundFar>
+	DelayCount: 15
+	BitMaps:
+		.\\Bitmaps\\map_bonfire\\background.bmp
+#BackgroundFarEnd

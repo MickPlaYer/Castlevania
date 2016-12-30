@@ -1,0 +1,58 @@
+<Map>
+	RGB: 0 96 0
+	BitMaps:
+		.\\Bitmaps\\map_tunnel\\ceiling_0.bmp
+		.\\Bitmaps\\map_tunnel\\ceiling_1.bmp
+		.\\Bitmaps\\map_tunnel\\floor_0.bmp
+		.\\Bitmaps\\map_tunnel\\floor_1.bmp
+		.\\Bitmaps\\map_tunnel\\half_platform_0.bmp
+		.\\Bitmaps\\map_tunnel\\half_platform_1.bmp
+		.\\Bitmaps\\map_tunnel\\ladder_left.bmp
+		.\\Bitmaps\\map_tunnel\\ladder_right.bmp
+		.\\Bitmaps\\map_tunnel\\little_platform_left_0.bmp
+		.\\Bitmaps\\map_tunnel\\little_platform_left_1.bmp
+		.\\Bitmaps\\map_tunnel\\little_platform_right_0.bmp
+		.\\Bitmaps\\map_tunnel\\little_platform_right_1.bmp
+		.\\Bitmaps\\map_tunnel\\platform_0.bmp
+		.\\Bitmaps\\map_tunnel\\platform_1.bmp
+		.\\Bitmaps\\map_tunnel\\roof_0.bmp
+		.\\Bitmaps\\map_tunnel\\roof_1.bmp
+		.\\Bitmaps\\map_tunnel\\side_roof_0.bmp
+		.\\Bitmaps\\map_tunnel\\side_roof_1.bmp
+		.\\Bitmaps\\map_tunnel\\sub_ladder_left_0.bmp
+		.\\Bitmaps\\map_tunnel\\sub_ladder_left_1.bmp
+		.\\Bitmaps\\map_tunnel\\sub_ladder_left_2.bmp
+		.\\Bitmaps\\map_tunnel\\sub_ladder_right_0.bmp
+		.\\Bitmaps\\map_tunnel\\sub_ladder_right_1.bmp
+		.\\Bitmaps\\map_tunnel\\sub_ladder_right_2.bmp
+		.\\Bitmaps\\map_tunnel\\under_ladder_left_0.bmp
+		.\\Bitmaps\\map_tunnel\\under_ladder_left_1.bmp
+		.\\Bitmaps\\map_tunnel\\under_ladder_right_0.bmp
+		.\\Bitmaps\\map_tunnel\\under_ladder_right_1.bmp
+		.\\Bitmaps\\map_tunnel\\wall_0.bmp
+		.\\Bitmaps\\map_tunnel\\wall_1.bmp
+		.\\Bitmaps\\map_tunnel\\wall_2.bmp
+		.\\Bitmaps\\map_tunnel\\wall_3.bmp
+		.\\Bitmaps\\map_tunnel\\wall_4.bmp
+		.\\Bitmaps\\map_tunnel\\wall_5.bmp
+#MapEnd
+
+<Background>
+	BitMaps:
+		.\\Bitmaps\\map_tunnel\\bg_b_0.bmp
+		.\\Bitmaps\\map_tunnel\\bg_b_1.bmp
+		.\\Bitmaps\\map_tunnel\\bg_b_2.bmp
+		.\\Bitmaps\\map_tunnel\\bg_b_3.bmp
+#BackgroundEnd
+
+<BackgroundMiddle>
+	DelayCount: 15
+	BitMaps:
+		.\\Bitmaps\\map_aisle\\background_moon_0.bmp
+#BackgroundMiddleEnd
+
+<BackgroundFar>
+	DelayCount: 15
+	BitMaps:
+		.\\Bitmaps\\map_aisle\\background_moon_0.bmp
+#BackgroundFarEnd

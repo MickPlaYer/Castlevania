@@ -1,0 +1,181 @@
+<bmp_begin>
+RGB: 255 255 255
+Bitmaps\\monster\\none_white.bmp
+Bitmaps\\monster\\boss\\boss.bmp
+Bitmaps\\monster\\boss\\boss1.bmp
+<bmp_end>
+
+<attribute>
+hp: 50  attack: 10  defence: 10  death: 20
+<attribute_end>
+
+<frame> 0 stand_by
+	kind: 0  pic: 1  wait: 0  next: 0 dvx: 0 dvy: 0
+	trig:
+		x: 65  y: 1  width: 1260  height: 1260  goto: 7
+	trig_end:
+<frame_end>
+
+<frame> 7 Walk
+	kind: 1  pic: 1  wait: 15  next: 7  dvx: 2  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 44  height: 100
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 144  height: 100  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 8 Walk
+	kind: 0  pic: 1  wait: 5  next: 9  dvx: -2  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 44  height: 100
+	bdy_end:
+<frame_end>
+
+<frame> 9 Walk
+	kind: 1  pic: 1  wait: 15  next: 10  dvx: 1  dvy: 4
+	bdy:
+		x: 1  y: 1  width: 44  height: 100
+	bdy_end:
+<frame_end>
+
+<frame> 10 Walk
+	kind: 1  pic: 1  wait: 15  next: 11  dvx: 7  dvy: -4
+	bdy:
+		x: 1  y: 1  width: 44  height: 100
+	bdy_end:
+<frame_end>
+
+<frame> 11 Walk
+	kind: 0  pic: 1  wait: 15  next: 7  dvx: 7  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 44  height: 100
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 44  height: 100  goto: 14
+	trig_end:
+<frame_end>
+
+<frame> 12 stand_by
+	kind: 0  pic: 0  wait: 0  next: 12 dvx: 0 dvy: 0
+	trig:
+		x: 65  y: 1  width: 1260  height: 1260  goto: 13
+	trig_end:
+<frame_end>
+
+<frame> 13 Walk
+	kind: 1  pic: 2  wait: 15  next: 13  dvx: 2  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 99  height: 117
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 144  height: 100  goto: 14
+	trig_end:
+<frame_end>
+
+<frame> 14 Walk
+	kind: 0  pic: 2  wait: 5  next: 15  dvx: -2  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 99  height: 117
+	bdy_end:
+<frame_end>
+
+<frame> 15 Walk
+	kind: 1  pic: 2  wait: 15  next: 16  dvx: 1  dvy: 4
+	bdy:
+		x: 1  y: 1  width: 99  height: 117
+	bdy_end:
+<frame_end>
+
+<frame> 16 Walk
+	kind: 1  pic: 2  wait: 15  next: 17  dvx: 7  dvy: -4
+	bdy:
+		x: 1  y: 1  width: 99  height: 117
+	bdy_end:
+<frame_end>
+
+<frame> 17 Walk
+	kind: 0  pic: 2  wait: 15  next: 13  dvx: 7  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 99  height: 117
+	bdy_end:
+<frame_end>
+
+<frame> 20 death
+	kind: 1  pic: 0  wait: 1  next: 21  dvx: 0  dvy: 0
+	timer:
+		reset: 1  time: 0  goto: 0
+	timer_end:
+<frame_end>
+
+<frame> 21 death
+	kind: 1  pic: 2  wait: 2  next: 22  dvx: 0  dvy: 1
+<frame_end>
+
+<frame> 22 death
+	kind: 1  pic: 0  wait: 2  next: 23  dvx: 0  dvy: 2
+<frame_end>
+
+<frame> 23 death
+	kind: 1  pic: 2  wait: 2  next: 24  dvx: 0  dvy: 3
+<frame_end>
+
+<frame> 24 death
+	kind: 1  pic: 0  wait: 2  next: 25  dvx: 0  dvy: 4
+<frame_end>
+
+<frame> 25 death
+	kind: 1  pic: 2  wait: 2  next: 26  dvx: 0  dvy: 5
+<frame_end>
+
+<frame> 26 death
+	kind: 1  pic: 0  wait: 2  next: 27  dvx: 0  dvy: 6
+<frame_end>
+
+<frame> 27 death
+	kind: 1  pic: 2  wait: 2  next: 28  dvx: 0  dvy: 7
+<frame_end>
+
+<frame> 28 death
+	kind: 1  pic: 0  wait: 2  next: 29  dvx: 0  dvy: 8
+<frame_end>
+
+<frame> 29 death
+	kind: 3  pic: 2  wait: 2  next: 30  dvx: 0  dvy: 0
+	timer:
+		reset: 0  time: 20  goto: 31
+	timer_end:
+<frame_end>
+
+<frame> 30 death
+	kind: 3  pic: 0  wait: 2  next: 29  dvx: 0  dvy: 0
+	timer:
+		reset: 0  time: 20  goto: 31
+	timer_end:
+<frame_end>
+
+<frame> 31 death
+	kind: 3  pic: 2  wait: 0  next: 32  dvx: 0  dvy: 0
+	timer:
+		reset: 1  time: 0  goto: 0
+	timer_end:
+<frame_end>
+
+<frame> 32 death
+	kind: 3  pic: 0  wait: 2  next: 33  dvx: 0  dvy: -8
+	timer:
+		reset: 0  time: 30  goto: 50
+	timer_end:
+<frame_end>
+
+<frame> 33 death
+	kind: 3  pic: 2  wait: 2  next: 32  dvx: 0  dvy: -8
+	timer:
+		reset: 0  time: 30  goto: 50
+	timer_end:
+<frame_end>
+
+<frame> 50 death
+	kind: -1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+<frame_end>

@@ -1,0 +1,45 @@
+<bmp_begin>
+RGB: 0 0 0
+Bitmaps\\Monster\\scube.bmp
+<bmp_end>
+
+<attribute>
+hp: 999  attack: 3  defence: 0  death: 3
+<attribute_end>
+
+<frame> 0 stand_by
+	kind: 1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+	bdt:
+		x: 1  y: 1  width: 30  height: 30  goto: 1
+	bdt_end:
+	bdt:
+		x: 97  y: 1  width: 30  height: 30  goto: 2
+	bdt_end:
+	bdt:
+		x: 1  y: 161  width: 30  height: 30  goto: 1
+	bdt_end:
+	bdt:
+		x: 97  y: 161  width: 30  height: 30  goto: 2
+	bdt_end:
+	bpoint:
+		x: 63  y: 92  id: 0
+	bpoint_end:
+<frame_end>
+
+<frame> 1 stand_by
+	kind: 1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: -1
+	bpoint:
+		x: 1  y: 1  id: 1
+	bpoint_end:
+<frame_end>
+
+<frame> 2 stand_by
+	kind: 1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 1
+	bpoint:
+		x: 1  y: 1  id: 0
+	bpoint_end:
+<frame_end>
+
+<frame> 3 stand_by
+	kind: 0  pic: 0  wait: 0  next: 3  dvx: 0  dvy: 0
+<frame_end>

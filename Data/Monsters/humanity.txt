@@ -1,0 +1,185 @@
+<bmp_begin>
+RGB: 0 96 0
+Bitmaps\\monster\\none.bmp
+Bitmaps\\monster\\humanity\\1.bmp
+Bitmaps\\monster\\humanity\\2.bmp
+Bitmaps\\monster\\humanity\\3.bmp
+Bitmaps\\monster\\humanity\\4.bmp
+Bitmaps\\monster\\humanity\\5.bmp
+Bitmaps\\monster\\humanity\\6.bmp
+Bitmaps\\monster\\humanity\\7.bmp
+Bitmaps\\monster\\humanity\\8.bmp
+Bitmaps\\monster\\humanity\\9.bmp
+Bitmaps\\monster\\humanity\\10.bmp
+<bmp_end>
+
+<attribute>
+hp: 50  attack: 8  defence: 1  death: 20
+<attribute_end>
+
+<frame> 0 stand_by
+	kind: 0  pic: 1  wait: 3  next: 1  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 78  height: 62  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 1 stand_by
+	kind: 0  pic: 2  wait: 3  next: 2  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 78  height: 62  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 2 stand_by
+	kind: 0  pic: 3  wait: 3  next: 3  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 78  height: 62  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 3 stand_by
+	kind: 0  pic: 4  wait: 3  next: 4  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 78  height: 62  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 4 stand_by
+	kind: 0  pic: 5  wait: 3  next: 5  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 78  height: 62  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 5 stand_by
+	kind: 0  pic: 4  wait: 3  next: 6  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 78  height: 62  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 6 stand_by
+	kind: 0  pic: 3  wait: 3  next: 7  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 62  height: 62  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 7 stand_by
+	kind: 0  pic: 2  wait: 3  next: 0  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+	trig:
+		x: 1  y: 1  width: 62  height: 62  goto: 8
+	trig_end:
+<frame_end>
+
+<frame> 8 walk
+	kind: 3  pic: 1  wait: 3  next: 9  dvx: 1  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 9 walk
+	kind: 3  pic: 2  wait: 3  next: 10  dvx: 1  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 10 walk
+	kind: 3  pic: 3  wait: 3  next: 11  dvx: 1  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 11 walk
+	kind: 3  pic: 4  wait: 3  next: 12  dvx: 1  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 12 walk
+	kind: 3  pic: 5  wait: 3  next: 13  dvx: 1  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 13 walk
+	kind: 3  pic: 4  wait: 3  next: 14  dvx: 1  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 14 walk
+	kind: 3  pic: 3  wait: 3  next: 15  dvx: 1  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 15 walk
+	kind: 3  pic: 2  wait: 2  next: 16  dvx: 1  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 16 walk
+	kind: 2  pic: 2  wait: 0  next: 8  dvx: 0  dvy: 0
+	bdy:
+		x: 1  y: 1  width: 30  height: 62
+	bdy_end:
+<frame_end>
+
+<frame> 20 dead
+	kind: 1  pic: 6  wait: 1  next: 21  dvx: 0  dvy: 0
+<frame_end>
+
+<frame> 21 dead
+	kind: 1  pic: 7  wait: 1  next: 22  dvx: 0  dvy: 0
+<frame_end>
+
+<frame> 22 dead
+	kind: 1  pic: 8  wait: 1  next: 23  dvx: 0  dvy: 0
+<frame_end>
+
+<frame> 23 dead
+	kind: 1  pic: 9  wait: 1  next: 24  dvx: 0  dvy: 0
+<frame_end>
+
+<frame> 24 dead
+	kind: 1  pic: 10  wait: 1  next: 25  dvx: 0  dvy: 0
+<frame_end>
+
+<frame> 25 dead
+	kind: -1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+<frame_end>

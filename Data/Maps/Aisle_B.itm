@@ -1,0 +1,11 @@
+BlockerAmount: 2
+
+<blocker> boss_door
+	pic: .\\Bitmaps\\boss_door.bmp
+	x: 1504  y: 128
+<blocker_end>
+
+<blocker> boss_door_cover
+	pic: .\\Bitmaps\\map_aisle\\sidewall_top_right.bmp
+	x: 1472  y: 0
+<blocker_end>

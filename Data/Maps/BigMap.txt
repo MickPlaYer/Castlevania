@@ -1,0 +1,21 @@
+MapAmount: 5
+
+<map> 0 Bonfire
+	right: 1
+<map_end>
+
+<map> 1 Aisle_A
+	left: 0  right: 2
+<map_end>
+
+<map> 2 Tunnel
+	left: 1  right: 3
+<map_end>
+
+<map> 3	Aisle_B
+	left: 2  right: 4
+<map_end>
+
+<map> 4	Tunnel_Boss
+	left: 3
+<map_end>

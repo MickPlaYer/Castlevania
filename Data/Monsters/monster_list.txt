@@ -1,0 +1,35 @@
+<monster> 0 scube
+	.\\Data\\Monsters\\scube.txt
+<monster_end>
+
+<monster> 1 zombie
+	.\\Data\\Monsters\\zombie.txt
+<monster_end>
+
+<monster> 2 baozou_zombie
+	.\\Data\\Monsters\\baozou_zom.txt
+<monster_end>
+
+<monster> 3 boss
+	.\\Data\\Monsters\\boss.txt
+<monster_end>
+
+<monster> 4 shoot
+	.\\Data\\Monsters\\shoot.txt
+<monster_end>
+
+<monster> 5 humanity
+	.\\Data\\Monsters\\humanity.txt
+<monster_end>
+
+<monster> 6 mino
+	.\\Data\\Monsters\\mino.txt
+<monster_end>
+
+<monster> 7 killer
+	.\\Data\\Monsters\\killer.txt
+<monster_end>
+
+<monster> 8 knight
+	.\\Data\\Monsters\\knight.txt
+<monster_end>

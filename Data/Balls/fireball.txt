@@ -1,0 +1,147 @@
+<attribute>
+	ShiftX: 20  ShiftY: -4  AttackPoint: 30  DeathFrame: 20  BitmapNumber: 1
+<attribute_end>
+
+<frame> 0 move
+	kind: 0  pic: 1  wait: 0  next: 1  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 1 move
+	kind: 0  pic: 2  wait: 0  next: 2  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 2 move
+	kind: 0  pic: 3  wait: 0  next: 3  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 3 move
+	kind: 0  pic: 4  wait: 0  next: 4  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 4 move
+	kind: 0  pic: 5  wait: 0  next: 5  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 5 move
+	kind: 0  pic: 6  wait: 0  next: 6  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 6 move
+	kind: 0  pic: 7  wait: 0  next: 7  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 7 move
+	kind: 0  pic: 8  wait: 0  next: 8  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 8 move
+	kind: 0  pic: 9  wait: 0  next: 9  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 9 move
+	kind: 0  pic: 10  wait: 0  next: 10  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 10 move
+	kind: 0  pic: 11  wait: 0  next: 11  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 11 move
+	kind: 0  pic: 12  wait: 0  next: 1  dvx: 5  dvy: 0
+	atk:
+		x: 1  y: 43  w: 12  h: 12
+	atk_end:
+	timer:
+		reset: 0  time: 30  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 20 death
+	kind: 1  pic: 13  wait: 0  next: 21  dvx: 0  dvy: 5
+<frame_end>
+
+<frame> 21 death
+	kind: 1  pic: 14  wait: 0  next: 22  dvx: 0  dvy: 5
+<frame_end>
+
+<frame> 22 death
+	kind: 1  pic: 15  wait: 0  next: 23  dvx: 0  dvy: 5
+<frame_end>
+
+<frame> 23 death
+	kind: 1  pic: 16  wait: 0  next: 24  dvx: 0  dvy: 5
+<frame_end>
+
+<frame> 24 death
+	kind: 1  pic: 17  wait: 0  next: 25  dvx: 0  dvy: 5
+<frame_end>
+
+<frame> 25 death
+	kind: -1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+<frame_end>

@@ -1,0 +1,337 @@
+<bmp_begin>
+RGB: 189 231 255
+Bitmaps\\monster\\none_blue.bmp
+Bitmaps\\monster\\mino\\stand.bmp
+Bitmaps\\monster\\mino\\stand2.bmp
+Bitmaps\\monster\\mino\\stand3.bmp
+Bitmaps\\monster\\mino\\move1.bmp
+Bitmaps\\monster\\mino\\move2.bmp
+Bitmaps\\monster\\mino\\move3.bmp
+Bitmaps\\monster\\mino\\move4.bmp
+Bitmaps\\monster\\mino\\move5.bmp
+Bitmaps\\monster\\mino\\attack1.bmp
+Bitmaps\\monster\\mino\\attack2.bmp
+Bitmaps\\monster\\mino\\attack3.bmp
+Bitmaps\\monster\\mino\\attack4.bmp
+Bitmaps\\monster\\mino\\attack_1.bmp
+Bitmaps\\monster\\mino\\attack_2.bmp
+Bitmaps\\monster\\mino\\attack_3.bmp
+Bitmaps\\monster\\mino\\attack_4.bmp
+Bitmaps\\monster\\mino\\attack_5.bmp
+Bitmaps\\monster\\mino\\attack_6.bmp
+Bitmaps\\monster\\mino\\attack_7.bmp
+<bmp_end>
+
+<attribute>
+hp: 330  attack: 10  defence: 4  death: 26
+<attribute_end>
+
+<frame> 0 stand
+	kind: 0  pic: 1  wait: 0  next: 1  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 29  width: 50  height: 109  
+	bdy_end:
+	trig:
+		x: -299  y: 1  width: 2000  height: 200  goto: 4
+	trig_end:
+<frame_end>
+
+<frame> 1 stand
+	kind: 0  pic: 1  wait: 15  next: 2  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 29  width: 50  height: 109  
+	bdy_end:
+	bdt:
+		x: 97  y: 29  width: 50  height: 109 goto: 4
+	bdt_end:
+	trig:
+		x: -299  y: 1  width: 2000  height: 200  goto: 4
+	trig_end:
+<frame_end>
+
+<frame> 2 stand2
+	kind: 0  pic: 2  wait: 15  next: 3  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 29  width: 50  height: 109  
+	bdy_end:
+	bdt:
+		x: 97  y: 29  width: 50  height: 109 goto: 4
+	bdt_end:
+	trig:
+		x: -299  y: 1  width: 2000  height: 200  goto: 4
+	trig_end:
+<frame_end>
+
+<frame> 3 stand3
+	kind: 0  pic: 3  wait: 15  next: 1  dvx: 0  dvy: 0
+	bdy:
+		x: 97  y: 29  width: 50  height: 109  
+	bdy_end:
+	bdt:
+		x: 97  y: 29  width: 50  height: 109 goto: 4
+	bdt_end:
+	trig:
+		x: -299  y: 1  width: 2000  height: 200  goto: 4
+	trig_end:
+<frame_end>
+
+<frame> 4 move1
+	kind: 0  pic: 4  wait: 5  next: 5  dvx: 2  dvy: 0
+	bdy: 
+		x: 66	Y: 25	width: 42	height: 119 
+	bdy_end:
+	trig:
+		x: 29  y: 10  width: 130  height: 144  goto: 9
+	trig_end:
+<frame_end>
+
+<frame> 5 move2
+	kind: 0  pic: 5  wait: 5  next: 6  dvx: 2  dvy: 0
+	bdy:
+		x: 66	Y: 25	width: 42	height: 119 
+	bdy_end:
+	trig:
+		x: 29  y: 10  width: 130  height: 144  goto: 9
+	trig_end:
+<frame_end>
+
+<frame> 6 move3
+	kind: 0  pic: 6  wait: 5  next: 7  dvx: 2  dvy: 0
+	bdy:
+		x: 66	Y: 25	width: 42	height: 119 
+	bdy_end:
+	trig:
+		x: 29  y: 10  width: 130  height: 144  goto: 9
+	trig_end:
+<frame_end>
+
+<frame> 7 move4
+	kind: 0  pic: 7  wait: 5  next: 8  dvx: 2  dvy: 0
+	bdy:
+		x: 66	Y: 25	width: 42	height: 119 
+	bdy_end:
+	trig:
+		x: 29  y: 10  width: 160  height: 144  goto: 9
+	trig_end:
+<frame_end>
+
+<frame> 8 move5
+	kind: 0  pic: 8  wait: 5  next: 4  dvx: 2  dvy: 0
+	bdy: 
+		x: 66	Y: 25	width: 42	height: 119 
+	bdy_end:
+	trig:
+		x: 29  y: 10  width: 160  height: 144  goto: 9
+	trig_end:
+<frame_end>
+
+<frame> 9 attack1
+	kind: 0  pic: 9  wait: 30  next: 10  dvx: 0  dvy: 0
+	bdy:
+		x: 89	y: 44	width: 48	height: 118 
+	bdy_end:
+	trig:
+		x: 250  y: 48  width: 250  height: 114  goto: 28
+	trig_end:	
+<frame_end>
+
+<frame> 10 attack2
+	kind: 0  pic: 10  wait: 3  next: 11  dvx: 0  dvy: 0
+	bdy:
+		x: 94	y: 41	width: 48	height: 121 
+	bdy_end:
+	trig:
+		x: 250  y: 48  width: 250  height: 114  goto: 9
+	trig_end:	
+<frame_end>
+
+<frame> 11 attack3
+	kind: 0  pic: 11  wait: 1  next: 12  dvx: 0  dvy: 0
+	bdy:
+		x: 99	y: 54	width: 47	height: 108
+	bdy_end:
+	atk:
+		x: 99  y: 54  width: 125  height: 108 
+	atk_end:
+<frame_end>
+
+<frame> 12 attack4
+	kind: 0  pic: 12  wait: 1  next: 27  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 54  width: 57  height: 108
+	bdy_end:
+	atk:
+		x: 95  y: 124  width: 125  height: 108 
+	atk_end:
+<frame_end>
+
+<frame> 13 attack_1
+	kind: 0  pic: 13  wait: 1  next: 14  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 97  height: 145
+	bdy_end:
+	bdt:
+		x: 244  y: 17  width: 97  height: 145 goto: 9
+	bdt_end:	
+<frame_end>
+
+<frame> 14 attack_2
+	kind: 0  pic: 14  wait: 1  next: 15  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 132  height: 145
+	bdy_end:
+	bdt:
+		x: 244  y: 17  width: 132  height: 145 goto: 25
+	bdt_end:
+<frame_end>
+
+<frame> 15 attack_3
+	kind: 0  pic: 15  wait: 1  next: 16  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 165  height: 145
+	bdy_end:
+	bdt:
+		x: 244  y: 17  width: 165  height: 145 goto: 24
+	bdt_end:
+<frame_end>
+
+<frame> 16 attack_4
+	kind: 0  pic: 16  wait: 1  next: 17  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 194  height: 145
+	bdy_end:
+	atk:
+		x: 244  y: 17  width: 194  height: 151
+	atk_end:
+	bdt:
+		x: 244  y: 17  width: 194  height: 145 goto: 23
+	bdt_end:
+<frame_end>
+
+<frame> 17 attack_5
+	kind: 0  pic: 17  wait: 1  next: 18  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 224  height: 145
+	bdy_end:
+	bdt:
+		x: 244  y: 17  width: 224  height: 145 goto: 22
+	bdt_end:
+	atk:
+		x: 244  y: 17  width: 224  height: 151
+	atk_end:
+<frame_end>
+
+<frame> 18 attack_6
+	kind: 0  pic: 18  wait: 1  next: 19  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 240  height: 145
+	bdy_end:
+	bdt:
+		x: 244  y: 17  width: 240  height: 145 goto: 21
+	bdt_end:
+	atk:
+		x: 244  y: 17  width: 291  height: 151
+	atk_end:
+<frame_end>
+
+<frame> 19 attack_7
+	kind: 0  pic: 19  wait: 1  next: 20  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 261  height: 145
+	bdy_end:
+	atk:
+		x: 244  y: 17  width: 333  height: 145
+	atk_end:
+<frame_end>
+
+<frame> 20 attack_6
+	kind: 0  pic: 18  wait: 1  next: 21  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 240  height: 145
+	bdy_end:
+	atk:
+		x: 244  y: 17  width: 291  height: 151
+	atk_end:
+<frame_end>
+
+<frame> 21 attack_5
+	kind: 0  pic: 17  wait: 1  next: 22  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 224  height: 145
+	bdy_end:
+	atk:
+		x: 244  y: 17  width: 224  height: 151
+	atk_end:
+<frame_end>
+
+<frame> 22 attack_4
+	kind: 0  pic: 16  wait: 1  next: 23  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 194  height: 145
+	bdy_end:
+	atk:
+		x: 244  y: 17  width: 194  height: 151
+	atk_end:
+<frame_end>
+
+<frame> 23 attack_3
+	kind: 0  pic: 15  wait: 1  next: 24  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 165  height: 145
+	bdy_end:
+<frame_end>
+
+<frame> 24 attack_2
+	kind: 0  pic: 14  wait: 1  next: 25  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 132  height: 145
+	bdy_end:
+<frame_end>
+
+<frame> 25 attack_1
+	kind: 0  pic: 13  wait: 1  next: 4  dvx: 0  dvy: 0
+	bdy:
+		x: 244  y: 17  width: 97  height: 145
+	bdy_end:
+<frame_end>
+
+<frame> 26 death
+	kind: 1  pic: 0  wait: 0  next: 29  dvx: 0  dvy: 0
+	timer:
+		reset: 1 time: 0 goto: 0
+	timer_end:
+<frame_end>
+
+<frame> 27 attack4
+	kind: 0  pic: 12  wait: 14  next: 9  dvx: 0  dvy: 0
+	bdy:
+		x: 95  y: 54  width: 57  height: 108
+	bdy_end:
+<frame_end>
+
+<frame> 28 attack1
+	kind: 0  pic: 9  wait: 15  next: 13  dvx: 0  dvy: 0
+	bdy:
+		x: 89	y: 44	width: 48	height: 118 
+	bdy_end:	
+<frame_end>
+
+<frame> 29 death
+	kind: 1  pic: 0  wait: 0  next: 30  dvx: 0  dvy: 0
+	timer:
+		reset: 0 time: 15 goto: 31
+	timer_end:
+<frame_end>
+
+<frame> 30 death
+	kind: 1  pic: 9  wait: 0  next: 29  dvx: 0  dvy: 0
+	timer:
+		reset: 0 time: 15 goto: 31
+	timer_end:
+<frame_end>
+
+<frame> 31 death
+	kind: -1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+<frame_end>
+
+

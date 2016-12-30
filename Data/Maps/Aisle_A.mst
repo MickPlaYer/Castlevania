@@ -1,0 +1,25 @@
+MonsterAmount: 6
+
+<monster> humanity
+	id: 5  frame: 0  x: 311  y: 287
+<monster_end>
+
+<monster> humanity
+	id: 5  frame: 0  x: 711  y: 287
+<monster_end>
+
+<monster> humanity
+	id: 5  frame: 0  x: 911  y: 287
+<monster_end>
+
+<monster> humanity
+	id: 5  frame: 0  x: 1111  y: 287
+<monster_end>
+
+<monster> killer
+	id: 7  frame: 0  x: 1311  y: 287
+<monster_end>
+
+<monster> knight
+	id: 8  frame: 0  x: 2011  y: 287
+<monster_end>

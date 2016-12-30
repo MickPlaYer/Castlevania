@@ -1,0 +1,5 @@
+MonsterAmount: 1
+
+<monster> mino
+	id: 6  frame: 0  x: 439  y: 543
+<moster_end>

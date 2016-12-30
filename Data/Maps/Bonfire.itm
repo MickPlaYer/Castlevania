@@ -1,0 +1,6 @@
+BlockerAmount: 1
+
+<blocker> wall
+	pic: .\\Bitmaps\\map_bonfire\\wall.bmp
+	x: 0  y: 128
+<blocker_end>

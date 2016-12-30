@@ -1,0 +1,174 @@
+<attribute>
+	ShiftX: 0  ShiftY: -16  AttackPoint: 15  DeathFrame: 20  BitmapNumber: 2
+<attribute_end>
+
+<frame> 0 start
+	kind: 1  pic: 0  wait: 0  next: 1  dvx: 10  dvy: 0
+	timer:
+		reset: 1  time: 0  goto: 0
+	timer_end:
+<frame_end>
+
+<frame> 1 flying
+	kind: 2  pic: 1  wait: 0  next: 2  dvx: -1  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 2 flying
+	kind: 2  pic: 2  wait: 0  next: 3  dvx: 0  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 3 flying
+	kind: 2  pic: 3  wait: 0  next: 4  dvx: -1  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 4 flying
+	kind: 2  pic: 4  wait: 0  next: 5  dvx: 0  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 5 flying
+	kind: 2  pic: 5  wait: 0  next: 6  dvx: -1  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 6 flying
+	kind: 2  pic: 6  wait: 0  next: 7  dvx: 0  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 7 flying
+	kind: 2  pic: 7  wait: 0  next: 8  dvx: -1  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 8 flying
+	kind: 2  pic: 8  wait: 0  next: 9  dvx: 0  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 9 flying
+	kind: 2  pic: 9  wait: 0  next: 10  dvx: -1  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 10 flying
+	kind: 2  pic: 10  wait: 0  next: 11  dvx: 0  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 11 flying
+	kind: 2  pic: 11  wait: 0  next: 12  dvx: -1  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 12 flying
+	kind: 2  pic: 12  wait: 0  next: 13  dvx: 0  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 13 flying
+	kind: 2  pic: 13  wait: 0  next: 14  dvx: -1  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 14 flying
+	kind: 2  pic: 14  wait: 0  next: 15  dvx: 0  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 15 flying
+	kind: 2  pic: 15  wait: 0  next: 16  dvx: -1  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 16 flying
+	kind: 2  pic: 16  wait: 0  next: 1  dvx: 0  dvy: 0
+	atk:
+		x: 5  y: 5  w: 38  h: 38
+	atk_end:
+	timer:
+		reset: 0  time: 60  goto: 20
+	timer_end:
+<frame_end>
+
+<frame> 20 death
+	kind: -1  pic: 0  wait: 0  next: 0  dvx: 0  dvy: 0
+<frame_end>
