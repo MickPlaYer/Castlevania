@@ -12,9 +12,9 @@ http://www.cc.ntut.edu.tw/~wkchen/game/index.htm
 - Data Configuration
   - Change game object behavior without compile programe.
   - Map:
-    - Set maps link: [a relative link](Data/Maps/BigMap.txt)
-    - Set map bmps: [a relative link](Data/Maps/Aisle_A.bpc)
-    - Set map: [a relative link](Data/Maps/Aisle_A.map)
-    - Place map monsters: [a relative link](Data/Maps/Aisle_A.mst)
-  - Monster: [a relative link](Data/Monsters/zombie.txt)
-  - Ball(Projecte): [a relative link](Data/Balls/axe.txt)
+    - Set maps link: [BigMap.txt](Data/Maps/BigMap.txt)
+    - Set map bmps: [Aisle_A.bpc](Data/Maps/Aisle_A.bpc)
+    - Set map: [Aisle_A.map](Data/Maps/Aisle_A.map)
+    - Place map monsters: [Aisle_A.mst](Data/Maps/Aisle_A.mst)
+  - Monster: [zombie.txt](Data/Monsters/zombie.txt)
+  - Ball(Projecte): [axe.txt](Data/Balls/axe.txt)
